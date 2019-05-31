@@ -39,7 +39,7 @@ public class Ex1Main {
             joinedList.addAll(myArray.getList());
             maxElementsList.add(myArray.getMax());
         }
-        System.out.println(joinedList);
+        System.out.println("Array with random numbers:" + joinedList);
         System.out.println("Max element of Array = " + Collections.max(maxElementsList));
 
 //        System.out.println(System.currentTimeMillis() - initialTime);
