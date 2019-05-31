@@ -27,7 +27,7 @@ public class MyArray implements Runnable {
     @Override
     public void run() {
         for (int i = start; i < end; i++) {
-            list.add(random.nextInt(100)); //common add
+            list.add(random.nextInt(100000)); //common add
         }
         max = list.get(0);
         for (int i = 1; i < list.size(); i++) {
