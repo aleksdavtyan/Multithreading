@@ -48,6 +48,6 @@ public class ReverseText {
             stringBuilder.append(myStringList.get(i).getStringBuilder());
         }
         reversedString = stringBuilder.toString();
-        System.out.println(reversedString);
+        commandLineUserInterface.output("Reverse: " + reversedString);
     }
 }
